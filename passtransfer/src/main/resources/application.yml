@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testdb?loggerLevel=OFF
+    username: super
+    password: secret
+
+  session:
+    jdbc:
+      initialize-schema: always
